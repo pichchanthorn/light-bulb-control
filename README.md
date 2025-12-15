@@ -3,8 +3,8 @@
 ````md
 # 💡 Light Bulb Control – jQuery DOM Project
 
-A clean and interactive front-end project that simulates turning a **light bulb ON and OFF** using **jQuery DOM manipulation**.  
-This project focuses on practicing UI interaction, DOM events, and clean code organization using basic web technologies.
+A clean and interactive front-end project that demonstrates how to control a **light bulb ON and OFF** using **jQuery DOM manipulation**.  
+This project focuses on practicing UI interactions, DOM events, and writing clean, well-structured front-end code with basic web technologies.
 
 🌐 **Portfolio**  
 👉 https://pichchanthorn.github.io/pich-chanthorn-portfolio/
@@ -13,26 +13,35 @@ This project focuses on practicing UI interaction, DOM events, and clean code or
 
 ## 📌 Project Overview
 
-The **Light Bulb Control** project is a simple yet practical web application where users can control the state of a light bulb using **ON** and **OFF** buttons.
+The **Light Bulb Control** project is a simple yet practical web application that allows users to control the state of a light bulb using **ON** and **OFF** buttons.
 
-This project was built as a learning exercise to strengthen my understanding of:
+This project was built as a learning exercise to improve my understanding of:
 
 - jQuery DOM manipulation  
 - Event handling  
-- UI state changes  
-- Professional project structure  
+- UI state management  
+- Professional front-end project structure  
 
 ---
 
 ## 📸 Project Preview
 
-Below are screenshots of the project showing both states of the application.
+Below are screenshots showing both states of the application.
 
-### 🔆 Light ON
-![Light ON](assets/on.png)
-
-### 🌑 Light OFF
-![Light OFF](assets/off.png)
+<table>
+  <tr>
+    <th align="center">🔆 Light ON</th>
+    <th align="center">🌑 Light OFF</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./assets/on.png" alt="Light ON" width="300">
+    </td>
+    <td align="center">
+      <img src="./assets/off.png" alt="Light OFF" width="300">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -41,9 +50,9 @@ Below are screenshots of the project showing both states of the application.
 - Light bulb ON / OFF control  
 - Visual glow animation when the light is ON  
 - Dynamic background color changes  
-- Clear status indicator (ON / OFF)  
-- Clean, minimal, and responsive UI  
-- Beginner-friendly and readable code  
+- Clear ON / OFF status indicator  
+- Clean, minimal, and responsive user interface  
+- Beginner-friendly and easy-to-read code  
 
 ---
 
@@ -51,11 +60,11 @@ Below are screenshots of the project showing both states of the application.
 
 Through this project, I learned how to:
 
-- Use jQuery to select and manipulate DOM elements  
+- Select and manipulate DOM elements using jQuery  
 - Handle user interactions with `.click()` events  
-- Toggle UI states using CSS classes  
+- Manage UI states using CSS classes  
 - Separate HTML, CSS, and JavaScript for better maintainability  
-- Structure a project in a professional way for GitHub and portfolios  
+- Organize a front-end project suitable for GitHub and portfolios  
 
 ---
 
@@ -117,31 +126,6 @@ light-bulb-control/
 
 ---
 
-## ❤️ Support / Sponsor
-
-If you find this project helpful or use it as a reference, you can support my work through the platforms below.
-Your support helps me continue learning, building open-source projects, and improving my skills as a developer.
-
-### ☕ Buy Me a Coffee
-
-👉 [https://buymeacoffee.com/pichchanthorn](https://buymeacoffee.com/pichchanthorn)
-
-### 💖 Ko-fi
-
-👉 [https://ko-fi.com/pichchanthorn](https://ko-fi.com/pichchanthorn)
-
-### ⭐ GitHub Support
-
-You can also support me by:
-
-* ⭐ Starring this repository
-* 🍴 Forking the project
-* 📢 Sharing it with others
-
-Every form of support is deeply appreciated 🙏
-
----
-
 ## 👨‍💻 Author
 
 **Pich Chanthorn**
@@ -158,6 +142,6 @@ Build Bright University
 This project is licensed under the **MIT License**.
 You are free to use, modify, and share this project for learning and personal purposes.
 
-```
+````
 
 ​
