@@ -28,20 +28,11 @@ This project was built as a learning exercise to improve my understanding of:
 
 Below are screenshots showing both states of the application.
 
-<table>
-  <tr>
-    <th align="center">🔆 Light ON</th>
-    <th align="center">🌑 Light OFF</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./assets/on.png" alt="Light ON" width="300">
-    </td>
-    <td align="center">
-      <img src="./assets/off.png" alt="Light OFF" width="300">
-    </td>
-  </tr>
-</table>
+### 🔆 Light ON
+![Light ON](./assets/on.png)
+
+### 🌑 Light OFF
+![Light OFF](./assets/off.png)
 
 ---
 
