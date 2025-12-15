@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: background 0.5s ease;
+}
+
+body.lights-on {
+  background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  min-width: 350px;
+}
+
+.bulb-container {
+  margin-bottom: 40px;
+}
+
+.light-bulb {
+  font-size: 120px;
+  filter: grayscale(100%) brightness(0.5);
+  transition: all 0.4s ease;
+}
+
+.light-bulb.on {
+  filter: grayscale(0%) brightness(1.2);
+  text-shadow: 0 0 40px rgba(255, 215, 0, 0.8),
+               0 0 80px rgba(255, 215, 0, 0.6);
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { transform: scale(1); }
+  to   { transform: scale(1.05); }
+}
+
+.status {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.status.on {
+  color: #f59e0b;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-on {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: white;
+}
+
+.btn-off {
+  background: linear-gradient(135deg, #6b7280, #4b5563);
+  color: white;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #999;
+}
